@@ -14,7 +14,7 @@ function redirect(requestDetails) {
 	else
 	{
 		// If prohibited domain
-		console.log('Prohibitied Domain: ' + request_url)
+		console.log('Prohibited Domain: ' + request_url)
 		return {
 			redirectUrl:  browser.runtime.getURL(redirect_url)
 		}
